@@ -1,0 +1,28 @@
+@import url('http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800')
+
+global-reset()
+
+html,
+body
+  font-family 'Alegreya Sans', sans-serif
+  background #18
+  color #73FF9A
+  size 100%
+
+*,
+*:after,
+*:before
+  box-sizing border-box
+
+h1
+  font-weight 100
+  font-size 3em
+
+place(x, y)
+  transform translateX(-(x)%) translateY(-(y)%)
+  position absolute
+  left (x)%
+  top (y)%
+
+.title
+  place(50, 40)

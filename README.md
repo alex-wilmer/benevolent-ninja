@@ -1,3 +1,3 @@
-# Meteor Boilerplate
+# benevolent.ninja
 
-This boilerplate includes Iron Router, ES6, Jade & Stylus/Jeet/Rupture.
+The homepage of Alex Wilmer, application developer & JavaScript lover
