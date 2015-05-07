@@ -3,5 +3,9 @@ Router.configure({
 });
 
 Router.route('/', {
-  name: 'home'
+  name: 'splash'
+});
+
+Router.route('/blog', {
+  name: 'blog'
 });
